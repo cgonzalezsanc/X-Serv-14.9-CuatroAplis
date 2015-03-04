@@ -21,7 +21,3 @@ class Adios:
     def process(self, parsedRequest):
 
         return("200 OK", "<html><body><h1>Adios</html></body></h1>")
-
-
-if __name__ == "__main__":
-    serv = Sumador("localhost", 1234)
